@@ -1,0 +1,12 @@
+{
+  "thread_count": 20,
+  "max_scan_count": 100,
+  "depth": 2,
+  "url_list": "data/urls.txt",
+  "verbose": true,
+  "resume": true,
+  "clear_resume": false,
+  "result_db": "results/scan.db",
+  "server_port": 8080,
+  "screenshot_dir": "results/screenshots"
+}

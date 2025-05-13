@@ -1,0 +1,18 @@
+<html>
+<head><title>详情页</title></head>
+<body>
+<h2>🔎 {{.url}} 的扫描详情</h2>
+
+<h3>API 请求</h3>
+<ul>
+    {{range .apis}}<li>{{.}}</li>{{end}}
+</ul>
+
+<h3>JS 资源</h3>
+<ul>
+    {{range .jss}}<li>{{.}}</li>{{end}}
+</ul>
+
+<a href="/">返回列表</a>
+</body>
+</html>

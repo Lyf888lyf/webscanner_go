@@ -1,0 +1,15 @@
+<html>
+<head><title>扫描结果列表</title></head>
+<body>
+<h2>📋 已扫描 URL 列表</h2>
+<ul>
+    {{range .results}}
+        <li>
+            <a href="/detail?url={{.url}}">{{.url}}</a> -
+            状态码: {{.code}} - 时间: {{.timestamp}}<br/>
+            标题: {{.title}}
+        </li>
+    {{end}}
+</ul>
+</body>
+</html>
